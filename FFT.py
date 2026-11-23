@@ -114,3 +114,8 @@ def fingerprint_song(filename):
             fingerprint_points.append((time, frequency))
 
     return fingerprint_points
+
+# points = fingerprint_song("audio.wav")
+
+# print(f"Total peaks detected: {len(points)}")
+# print(points[:20])
